@@ -13,6 +13,14 @@
         <hr />
         <Venue />
       </div>
+      <div class="container">
+        <h2 class="mt-5">Mentor</h2>
+        <hr />
+        <Mentor />
+      </div>
+      <a href=" https://wa.me/6281331577625" class="float">
+      <p class="my-float">Butuh Bantuan ?</p> 
+      </a>
   </div>
 </template>
 
@@ -21,6 +29,7 @@ import Navbar from '~/components/Navbar.vue'
 import Carousel from '~/components/Carousel.vue'
 import Definition from '~/components/Definition.vue'
 import Card from '~/components/Card.vue'
+import Mentor from '~/components/Mentor.vue'
 import Venue from '~/components/Venue.vue'
 export default {
   components: {
@@ -29,10 +38,29 @@ export default {
     Definition,
     Card,
     Venue,
+    Mentor,
   }
 }
 </script>
 
-<style>
+<style scoped>
+html,body {
+  overflow-x: hidden;
+}
+.float{
+	position:fixed;
+	width:200px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:10px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
 
+.my-float{
+	margin-top:22px;
+}
 </style>

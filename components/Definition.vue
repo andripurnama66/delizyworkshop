@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div id="definition">
         <div class="row h-100 no-gutters">
         <div class="col-md-6 bg-success">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br>
             <h2 class="text-center text-white">Apa itu Water Kefir?</h2>
             <p class="text-center text-white mt-5">Water kefir merupakan minuman probiotik yang mengandung berbagai macam asam dan enzim yang berguna, memiliki berbagai manfaat baik untuk pencernaan maupun sebagai pengobatan.</p>
             
@@ -15,7 +15,7 @@
 </template>
 <style scoped>
 .background-kefir {
-    widows: 100%;
+    width: 100%;
     min-height: 100vh;
 }
 h2 {

@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
   <div class="navbar-brand">
   <nuxt-link to="/">
-  <img src="/logoicon.png" alt="Delizy Indonesia">
+  <img src="/logoicon.png" width="63px" height="63px" alt="Delizy Indonesia">
   </nuxt-link>
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,16 +14,16 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Venue</a>
+        <a class="nav-link" href="#definition">Venue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mentor</a>
+        <a class="nav-link" href="#mentor">Mentor</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">News</a>
+        <a class="nav-link" href="#articles">Article</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Reservation</a>
+        <a class="nav-link" href="#reservation">Reservation</a>
       </li>
     </ul>
   </div>

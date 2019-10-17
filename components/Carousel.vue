@@ -2,19 +2,19 @@
     <div>
         <div class="bg-overlay">
             <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-between">
 
                     
                 
                 <div class="col-md-6">
-                    <img src="/delizy.png" class="my-5 float-right" width="200px" height="200px" alt="Delizy Indonesia">
+                    <img src="/delizy.png" class="float-right my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
                 </div>
                 <div class="col-md-6">
-                    <img src="/Ubaya.jpg" class="my-5" width="200px" height="200px" alt="Delizy Indonesia">
+                    <img src="/Ubaya.jpg" class="my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-12">
                     <h1 class="text-center text-white">Presents :</h1>
                 </div>
             </div>
@@ -22,6 +22,13 @@
                 <div class="col-12">
                     <p class="text-center text-white">How to make Water Kefir</p>
                 </div>
+            </div>
+            <br><br><br><br><br>
+            <div class="row">
+                 <div class="col-sm-12 col-md-12">
+                     <h4 class="text-center text-white">Lebih Lanjut</h4>
+                 </div>
+                 <a href="#definition" class="arrow bounce text-white"></a>
             </div>
             </div>
         </div>
@@ -56,6 +63,37 @@ h1 {
 }
 p {
     font-size: 2rem;
+}
+.arrow
+{
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url('/arrow.svg');
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 </style>
 <script>

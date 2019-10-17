@@ -4,8 +4,12 @@ export default {
   /*
   ** Headers of the page
   */
+  env: {
+    VUE_APP_GOOGLE_MAPS_API_KEY: process.env.VUE_APP_GOOGLE_MAPS_API_KEY
+  },
+
   head: {
-    title: process.env.npm_package_name || 'Delizy Indonesia',
+    title: 'Delizy Indonesia - How to Make Water Kefir',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -33,6 +37,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/google-maps'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -44,7 +49,9 @@ export default {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org
+    
     'bootstrap-vue/nuxt',
+    '@nuxtjs/dotenv',
   ],
   /*
   ** Build configuration

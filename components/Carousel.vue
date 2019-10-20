@@ -2,34 +2,31 @@
     <div>
         <div class="bg-overlay">
             <div class="container">
-            <div class="row justify-content-between">
-
-                    
-                
-                <div class="col-md-6">
-                    <img src="/delizy.png" class="float-right my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <img src="/delizy.png" class="float-right my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/Ubaya.jpg" class="my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="/Ubaya.jpg" class="my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center text-white">Presents :</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="text-center text-white">Presents :</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center text-white">How to make Water Kefir</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="text-center text-white">How to make Water Kefir</p>
+                <br><br><br><br><br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h4 class="text-center text-white">Lebih Lanjut</h4>
+                    </div>
+                    <a href="#definition" class="arrow bounce text-white"></a>
                 </div>
-            </div>
-            <br><br><br><br><br>
-            <div class="row">
-                 <div class="col-sm-12 col-md-12">
-                     <h4 class="text-center text-white">Lebih Lanjut</h4>
-                 </div>
-                 <a href="#definition" class="arrow bounce text-white"></a>
-            </div>
             </div>
         </div>
     

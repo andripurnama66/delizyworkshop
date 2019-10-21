@@ -7,13 +7,16 @@ export default {
   env: {
     VUE_APP_GOOGLE_MAPS_API_KEY: process.env.VUE_APP_GOOGLE_MAPS_API_KEY
   },
-
+  googleAnalytics: {
+    id: "UA-150511137-1",
+    dev: false
+  },
   head: {
     title: 'Delizy Indonesia - How to Make Water Kefir',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Delizy Indonesia Workshop' },
+      { hid: 'description', name: 'description', content: 'Delizy Indonesia How To Make Water Kefir' },
       { metaInfo : {
        title : 'Delizy Indonesia' 
       }
@@ -51,6 +54,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     
     'bootstrap-vue/nuxt',
+    '@nuxtjs/google-analytics',
     '@nuxtjs/dotenv',
   ],
   /*

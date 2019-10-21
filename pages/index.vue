@@ -18,6 +18,17 @@
         <hr />
         <Mentor />
       </div>
+      <div class="container">
+        <h2 class="mt-5">Pendaftaran</h2>
+        <hr />
+        <Registrasi />
+      </div>
+      <div class="container mt-5">
+        
+        <hr />
+        <Footer />
+      </div>
+      
       <a href=" https://wa.me/6281331577625" class="float">
       <p class="my-float">Butuh Bantuan ?</p> 
       </a>
@@ -29,7 +40,9 @@ import Navbar from '~/components/Navbar.vue'
 import Carousel from '~/components/Carousel.vue'
 import Definition from '~/components/Definition.vue'
 import Card from '~/components/Card.vue'
+import Footer from '~/components/Footer.vue'
 import Mentor from '~/components/Mentor.vue'
+import Registrasi from '~/components/Registrasi.vue'
 import Venue from '~/components/Venue.vue'
 export default {
   components: {
@@ -38,6 +51,8 @@ export default {
     Definition,
     Card,
     Venue,
+    Footer,
+    Registrasi,
     Mentor,
   }
 }

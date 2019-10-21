@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="venue">
     <div class="row">
         <div class="col-md-6">
             <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="18">

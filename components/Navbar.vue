@@ -14,7 +14,7 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#definition">Venue</a>
+        <a class="nav-link" href="#venue">Venue</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#mentor">Mentor</a>
@@ -23,7 +23,7 @@
         <a class="nav-link" href="#articles">Article</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#reservation">Reservation</a>
+        <a class="nav-link" href="#Registration">Reservation</a>
       </li>
     </ul>
   </div>

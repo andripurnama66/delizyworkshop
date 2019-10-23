@@ -56,6 +56,7 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/google-analytics',
     '@nuxtjs/dotenv',
+    ['vue-scrollto/nuxt', { duration: 500 }],
   ],
   /*
   ** Build configuration

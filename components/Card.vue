@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div id="articles">
        <div class="container">
            <div class="row mt-5">
                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" v-for="(content,index) in cards" :key="index">

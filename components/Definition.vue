@@ -8,7 +8,7 @@
             
         </div>
         <div class="col-md-6">
-            <img src="/kiwii.jpg" class="background-kefir" alt="kiwi kefir">
+            <img src="/kiwii.jpg" class="background-kefir img-fluid" alt="kiwi kefir">
         </div>
         </div>
     </div>

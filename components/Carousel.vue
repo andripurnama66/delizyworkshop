@@ -2,12 +2,12 @@
     <div>
         <div class="bg-overlay">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
                         <img src="/delizy.png" class="float-right my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
                     </div>
-                    <div class="col-md-6">
-                        <img src="/Ubaya.jpg" class="my-5 img-fluid" width="200px" height="200px" alt="Delizy Indonesia">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <img src="/Ubaya.jpg" class="my-5 img-fluid" width="200px" height="200px" alt="Universitas Surabaya">
                     </div>
                 </div>
                 <div class="row">
@@ -20,12 +20,12 @@
                         <p class="text-center text-white">How to make Water Kefir</p>
                     </div>
                 </div>
-                <br><br><br><br><br>
+                <br><br>
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <h4 class="text-center text-white">Lebih Lanjut</h4>
                     </div>
-                    <a href="#definition" class="arrow bounce text-white"></a>
+                    <a v-scroll-to="'#definition'" class="arrow bounce text-white"></a>
                 </div>
             </div>
         </div>
